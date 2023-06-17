@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Jaltantra">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Jaltantra</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jaltantra" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+          <element id="dir-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/doc.kml" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/drinkingwater.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/favicon.ico" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/iitb_logo_black_small.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/index.html" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/waterdrop.png" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/watertower.png" />
+      <element id="directory" name="js">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebContent/js" />
+      </element>
+      <element id="directory" name="css">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebContent/css" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebContent/META-INF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jaltantra/web/Web" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/changepass.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/forgotpassword.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/login.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/register.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/system.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/script.html" />
+      <element id="file-copy" path="$PROJECT_DIR$/WebContent/usage.html" />
+    </root>
+  </artifact>
+</component>
